@@ -6,10 +6,10 @@
     "@types/node": "^12.12.48",
     "@types/react": "^16.9.41",
     "@types/react-dom": "^16.9.8",
-    "npm": "^6.14.6",
+    "npm": "^6.14.8",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
+    "react-scripts": "^3.4.3",
     "typescript": "^3.7.5"
   },
   "scripts": {
@@ -45,12 +45,12 @@
   },
   "husky": {
     "hooks": {
-        "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged"
     }
   },
-"lint-staged": {
+  "lint-staged": {
     "*.{js,ts,tsx}": [
-        "eslint --fix"
+      "eslint --fix"
     ]
   }
 }
