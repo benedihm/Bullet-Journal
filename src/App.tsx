@@ -1,16 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { ReactElement } from "react";
+import "./App.sass";
+import TomatoTimer from "./components/TomatoTimer/TomatoTimer";
 
-function App() {
-    return (
-        <div className="App">
-            <header className="App-header">
-                <p>Bullet Journal</p>
-                
-            </header>
-        </div>
-    );
+function App(): ReactElement {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <h1>Bullet Journal</h1>
+      </header>
+      <TomatoTimer />
+    </div>
+  );
 }
 
 export default App;
